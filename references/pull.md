@@ -15,7 +15,10 @@
 # 1. git が clean であることを確認（未コミット変更があるなら先にコミット or stash）
 git status --porcelain
 # → 出力が空であること。空でなければ:
-#    git add -A && git commit -m "WIP: pull 前の退避"  または  git stash --include-untracked
+#    git stash --include-untracked  （推奨: 未追跡ファイルも含めて一時退避）
+#    または git add -A && git commit -m "WIP: pull 前の退避"
+#      ※ git add -A は .clasprc.json などの秘密情報を誤ってコミットするリスクがある。
+#         差分を git status / git diff で確認したうえで選択的に add すること。
 
 # 2. クラウド側の変更を取り込む
 clasp pull

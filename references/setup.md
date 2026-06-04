@@ -39,6 +39,7 @@ https://script.google.com/home/usersettings then retry.
 ```
 
 → 上記ページで ON にしてから、**数分待って**再実行する（反映に時間がかかることがある）。
+  成功判定は手順4の `clasp list-scripts` が通ること。
 
 ## 4. 動作確認
 

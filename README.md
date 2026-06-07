@@ -2,6 +2,8 @@
 
 An Agent Skill that teaches Claude Code / Codex how to operate [clasp](https://github.com/google/clasp) (the Google Apps Script CLI) safely. Just say "clasp push" to your agent, and it follows safe procedures — including an accident-prevention decision flow.
 
+![Demo: saying "clasp push して" and the agent checks configs, asks dev/prod, and pushes](docs/demo.gif)
+
 *日本語の説明は[後半](#clasp-skill-日本語)にあります。*
 
 ## Features
@@ -61,6 +63,8 @@ MIT License — see [LICENSE](LICENSE).
 # clasp-skill（日本語）
 
 Google Apps Script の CLI ツール [clasp](https://github.com/google/clasp) の運用ノウハウを、Claude Code / Codex に教える Agent Skill です。「clasp push して」と話しかけるだけで、エージェントが安全な手順（事故防止の判定フロー込み）で作業してくれるようになります。
+
+![デモ: 「clasp push して」と話しかけると、設定確認 → 環境選択 → push まで進む様子](docs/demo.gif)
 
 ## 特徴
 

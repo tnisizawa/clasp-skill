@@ -1,6 +1,6 @@
 ---
 name: clasp
-description: "GASデプロイ。clasp push / deploy / clone / create / logs。GASプロジェクトの初期化・プッシュ・Webアプリ/ライブラリデプロイ・ログ取得。"
+description: "GASデプロイ。clasp push / deploy / clone / create / logs。GASプロジェクトの初期化・プッシュ・Webアプリ/ライブラリデプロイ・ログ取得。Google Apps Script deployment via clasp: push, deploy web app / library, rollback, logs."
 ---
 
 # Clasp（GAS プロジェクト管理）

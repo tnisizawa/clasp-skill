@@ -47,7 +47,7 @@ git -C ~/.claude/skills/clasp pull
 
 ## Notes
 
-- The skill documentation (`SKILL.md` and `references/`) is written in Japanese. Claude Code / Codex understand it natively, so the skill works fine in English-language sessions too.
+- The skill documentation (`SKILL.md` and `references/`) is written in Japanese. Claude Code / Codex understand it natively, so the skill works fine in English-language sessions too. An English translation of the skill entry point is available in [`SKILL.en.md`](SKILL.en.md).
 - This skill makes no network requests of its own — it only drives the `clasp` CLI and Google's official auth flow.
 
 ## License
